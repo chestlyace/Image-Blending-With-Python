@@ -2,8 +2,8 @@ import cv2
 import numpy as np
 
 # Load images
-img1 = cv2.imread('Image-Blending-With-Python/img/personday.jpeg')
-img2 = cv2.imread('Image-Blending-With-Python/img/night.jpeg')
+img1 = cv2.imread(r'C:\Users\User\OneDrive\Desktop\web practical\Image-Blending-With-Python\img\personday.jpeg')
+img2 = cv2.imread(r'C:\Users\User\OneDrive\Desktop\web practical\Image-Blending-With-Python\img\night.jpeg')
 
 # Ensure images loaded
 if img1 is None:
